@@ -1,0 +1,21 @@
+The human annotated files have information in the image file name that relates to their ID and their location in the flat fielded images.
+The first part is the identification. Codes are as follows (for the 10 file test – other categories exist but this includes most of them).
+Chaeto = chaetognath (also known as a “arrow worm”)
+Fish = larval fish
+Hydro = Hydromedusa (small jellyfish)
+LC = lobate ctenophore (comb jelly)
+Pleuro = Pleurobrachia (another type of comb jelly that has long tentacles)
+Shrimp = shrimp (crustacean, usually black)
+Siphon = Siphonophore (another type of gelatinous animal)
+Stomato = stomatopod larva (also known as a mantis shrimp)
+Unk = Unknown (other living things that were large but did not belong to a major category)
+
+Here is an example of the file name broken down:
+fish_Dataset3_20110724081513125.tif_122_462_1036_175_169.tiff
+fish = ID
+Dataset3_20110724081513125.tif = name of the tiff stack where it was found
+122 = the frame number within the stack (out of 300 or the total number in the stack)
+462 = the x location in the image of the top left corner of the box used to crop the animal
+1036 = the y location in the image of the top left corner of the box used to crop the animal
+175 = width of the box surrounding the animal
+169 = Height of the box surrounding the animal 
