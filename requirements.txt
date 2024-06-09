@@ -9,3 +9,4 @@ opencv-python
 supervision
 pycocotools
 openai
+ultralytics
