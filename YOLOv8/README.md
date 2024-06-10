@@ -11,5 +11,5 @@ Change the path for saving based on your settings.
 Change the path of yaml file based on your settings.
 
 ## Reproduce the results in our paper
-1. For validation, please use the corresponding yaml file in the `config` folder. For example, if you would like to get the result for model training on 10 meters and testing on 25 meters, please use the `config 10_25.yaml` (You still need to adjust the path inside the file based on your settings.)
+1. For validation, please use the corresponding yaml file in the `config/Validation` folder. For example, if you would like to get the result for model training on 10 meters and testing on 25 meters, please use the `config_25.yaml` as the data (You still need to adjust the path inside the file based on your settings.)
 2. For training, please follow the same rule as 1. For example, if you would like to train a model on all 3 depths to do the classification, use the `config_all_mix.yaml`
