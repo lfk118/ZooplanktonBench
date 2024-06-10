@@ -1,4 +1,4 @@
-# ZooplanktonCV: A Benchmark Dataset for Zooplankton Detection, Classification, and Tracking
+# ZooplanktonCV: A Benchmark Dataset for Zooplankton Recognition in Images and Videos
 This is the PyTorch implementation of our paper. It proposes a benchmark for Zooplankton detection, classification, and tracking.
 
 ## Installation
