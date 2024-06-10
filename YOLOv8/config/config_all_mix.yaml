@@ -4,9 +4,6 @@ train:
     - Marine_yolo_25m_only/images/train
     - Marine_yolo_35m_only/images/train
 val:
-    - Marine_yolo_10m_only/images/train
-    - Marine_yolo_25m_only/images/train
-    - Marine_yolo_35m_only/images/train
     - Marine_yolo_10m_only/images/val
     - Marine_yolo_25m_only/images/val
     - Marine_yolo_35m_only/images/val
