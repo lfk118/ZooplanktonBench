@@ -27,20 +27,13 @@ In general, we need to create datasets following the structures below
     │               └───test
     │                   |test_images.jpg
     │                   │   ...
-    │           └───labels_classification
+    │           └───labels
     │               └───train
     │                   |train_label.txt
     │                   │   ...
     │               └───test
     │                   |test_label.txt
-    │                   │   ...
-    │           └───labels_living_detection
-    │               └───train
-    │                   |train_label.txt
-    │                   │   ...
-    │               └───test
-    │                   |test_label.txt
-    │                   │   ...
+    │                   │   ...    │           
     |       └───Marine_yolo_25m
     |       └───Marine_yolo_35m
     |        ...
@@ -52,7 +45,7 @@ In general, we need to create datasets following the structures below
     │           └───test
     │               |test_images.jpg
     │               │   ...
-    │       └───labels_living_detection
+    │       └───labels
     │           └───train
     │               |train_label.txt
     │               │   ...
