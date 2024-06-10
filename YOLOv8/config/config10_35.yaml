@@ -1,8 +1,8 @@
 path: "/data/Marine_picture/"
 train: 
-    - Marine_yolo_10m_data/images
+    - Marine_yolo_10m_data/images/train
 val:
-    - Marine_yolo_35m_data/images
+    - Marine_yolo_35m_data/images/test
     
 # Classes
 names:
