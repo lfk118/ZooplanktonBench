@@ -1,12 +1,7 @@
 ## Preparing Datasets
 
-We provide the processed and labeled data.
-
-For GPT-4V, please download [This]()
-
-For YOLOv8 and GroundingDINO, please download[This]()
-
-
+We provide the processed and labeled data. Please download [This]()  
+For the labels, please note that there are two folders named `labels_classification` and `labels_living_detection`. Use them accordingly and do not use them together.
 
 ### Folder structure
 In general, we need to create datasets following the structures below
