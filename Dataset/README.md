@@ -13,13 +13,13 @@ In general, we need to create datasets following the structures below
 
     datasets
     │   README.md
-    └───GPT-4V
+    └───Ground_truth_jpg
     │       | chaeto_1.jpg
     |       | chaeto_2.jpg
     │       │   ...
     |   
     └───Marine_3_depths
-    |       └───Marine_yolo_10m
+    |       └───Marine_yolo_10m_only
     │           └───images
     │               └───train
     │                   |train_images.jpg
@@ -34,8 +34,8 @@ In general, we need to create datasets following the structures below
     │               └───test
     │                   |test_label.txt
     │                   │   ...    │           
-    |       └───Marine_yolo_25m
-    |       └───Marine_yolo_35m
+    |       └───Marine_yolo_25m_only
+    |       └───Marine_yolo_35m_only
     |        ...
     └───Video
     |       └───images
