@@ -11,7 +11,7 @@ from groundingdino.util.inference import load_model, load_image, predict, annota
 from torchvision.ops import box_convert,nms,box_iou, box_area
 
 
-def mAP_result(Ground_truth_train, Label_train,model):
+def mAP_result(Ground_truth_train, Label_train,model,threshold):
     
     categories={
     0: "chaetognath",
@@ -77,8 +77,8 @@ def mAP_result(Ground_truth_train, Label_train,model):
                     num_truth = Temp.shape[0]
 
                 TEXT_PROMPT = classes
-                BOX_TRESHOLD = 0.05
-                TEXT_TRESHOLD = 0.05
+                BOX_TRESHOLD = threshold
+                TEXT_TRESHOLD = threshold
 
                 image_source, image = load_image(ori_img_path)
 
@@ -139,8 +139,8 @@ def mAP50_95(diction):
         mAP += mAP_cal(diction[key])
     return mAP/10
 
-def result(Ground_truth_train, Label_train,model):
-    result = mAP_result(Ground_truth_train, Label_train,model)
+def result(Ground_truth_train, Label_train,model,threshold):
+    result = mAP_result(Ground_truth_train, Label_train,model,threshold)
     mAP = mAP_cal(result[0.5])
     mAP50_95 = mAP50_95(result)
     return mAP, mAP50_95
