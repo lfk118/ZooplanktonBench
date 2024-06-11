@@ -1,7 +1,7 @@
 ## Preparing Datasets
 
 We provide the processed and labeled data. Please download [This](https://outlookuga-my.sharepoint.com/:f:/g/personal/fl79416_uga_edu/EhtmuP6IOTpErtRhcVR3s-oBegeA4cOb46Bkpel6eyMDFg?e=C1dewu).  
-For the labels, please note that there are two folders named `labels_classification` and `labels_living_detection`. Use them accordingly and do not use them together.
+For the labels, please note that there are two folders named `labels_classification` and `labels_living_detection`. You should use them accordingly and not use them together. The labels are built in YOLO format, so if you want to use any other format, please adjust as needed. 
 
 ### Folder structure
 In general, we need to create datasets following the structures below
