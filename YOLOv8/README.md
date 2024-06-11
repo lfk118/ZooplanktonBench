@@ -1,6 +1,6 @@
 ## Finetuned model
 
-If you want to use the finetuned model we have, please download [Model]()
+If you want to use the finetuned model we have, please download [Model](https://outlookuga-my.sharepoint.com/:f:/g/personal/fl79416_uga_edu/EhtmuP6IOTpErtRhcVR3s-oBegeA4cOb46Bkpel6eyMDFg?e=C1dewu)
 
 ## Usage of notebook
 1. For [`VALIDATION.ipynb`](https://github.com/lfk118/ZooplanktonCV/blob/main/YOLOv8/VALIDATION.ipynb). Please make sure you already have the dataset prepared.
