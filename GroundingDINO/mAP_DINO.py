@@ -82,7 +82,7 @@ def mAP_result(Ground_truth_train, Label_train,model,threshold):
 
                 image_source, image = load_image(ori_img_path)
 
-                boxes, logits, phrases,logits_saved = predict(
+                boxes, logits, phrases = predict(
                     model=model,
                     image=image,
                     caption=TEXT_PROMPT,
@@ -101,7 +101,7 @@ def mAP_result(Ground_truth_train, Label_train,model,threshold):
                 detected_truth = 0
                 detected_false = 0
                 for l in boxes:
-                    if l[3] >= 0.8: continue
+                    if l[3] >= 0.8: continue #filtering for abnormal result
                     box_xyxy =box_convert(boxes=l, in_fmt='xywh', out_fmt='xyxy')
                     iou_result = np.asarray(box_iou(box_xyxy.view([1,4]),Temp_xyxy.view([num_truth,4]))).max(axis = 1)  
                     if iou_result >= iou_threshold:
