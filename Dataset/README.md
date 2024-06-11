@@ -1,6 +1,6 @@
 ## Preparing Datasets
 
-We provide the processed and labeled data. Please download [This]().  
+We provide the processed and labeled data. Please download [This](https://outlookuga-my.sharepoint.com/:f:/g/personal/fl79416_uga_edu/EhtmuP6IOTpErtRhcVR3s-oBegeA4cOb46Bkpel6eyMDFg?e=C1dewu).  
 For the labels, please note that there are two folders named `labels_classification` and `labels_living_detection`. Use them accordingly and do not use them together.
 
 ### Folder structure
