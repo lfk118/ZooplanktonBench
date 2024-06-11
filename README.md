@@ -7,10 +7,5 @@ If you want to run all our tests, please install the library in [requirements.tx
 For installing GroundingDINO, please refer to their [official GitHub](https://github.com/IDEA-Research/GroundingDINO). Once you finish installing it, you can just read the [README.md](https://github.com/lfk118/ZooplanktonCV/blob/main/GroundingDINO/README.md) in the GroundingDINO folder for next step.
 
 ## Dataset Preparation
-We provided all the datasets we used with [This is a link]()
-
-If you only want to run GPT-4V, the dataset is [This is a link]()
-
-If you only want to run the GroundingDINO / YOLOv8, the dataset is[This is a link]()
-
+We provided all the datasets we used with [This is a link](https://outlookuga-my.sharepoint.com/:f:/g/personal/fl79416_uga_edu/EhtmuP6IOTpErtRhcVR3s-oBegeA4cOb46Bkpel6eyMDFg?e=C1dewu)  
 For the usage of these datasets please refer to the [README.md](https://github.com/lfk118/ZooplanktonCV/blob/main/Dataset/README.md) in the dataset folder.
