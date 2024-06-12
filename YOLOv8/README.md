@@ -1,3 +1,6 @@
+## Data preparation
+Please make sure you download the [dataset](https://outlookuga-my.sharepoint.com/:f:/g/personal/fl79416_uga_edu/EhtmuP6IOTpErtRhcVR3s-oBegeA4cOb46Bkpel6eyMDFg?e=gbNeaE) before any experiments.
+
 ## Finetuned model
 
 If you want to use the finetuned model we have, please download [Model](https://outlookuga-my.sharepoint.com/:f:/g/personal/fl79416_uga_edu/EhtmuP6IOTpErtRhcVR3s-oBegeA4cOb46Bkpel6eyMDFg?e=C1dewu)
