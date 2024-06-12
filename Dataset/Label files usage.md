@@ -1,5 +1,5 @@
 ## Label Usage
-The labels are built in YOLO format. The first column element represents the categories.  
+The labels are built in YOLO format. The first column element represents the `categories`.  The reset 4 columns represent the `x location in the image of the top left corner of the box`, `y location in the image of the top left corner of the box`，`width of the box`，and `height of the box`.
 ### For zooplankton classification
 0: "chaetognath"  
 1: "larval fish"  
