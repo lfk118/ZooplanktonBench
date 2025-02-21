@@ -1,4 +1,4 @@
-# ZooplanktonCV: A Benchmark Dataset for Zooplankton Recognition in Images and Videos
+# ZooplanktonBench: A Geo-Aware Zooplankton Recognition and Classification Dataset from Marine Observations
 This is the PyTorch implementation of our paper. It proposes a benchmark for Zooplankton recognition in images and videos. For visualization results and details, you can check on our [website](https://lfk118.github.io/ZooplanktonCV_Webpage).
 
 ## Installation
